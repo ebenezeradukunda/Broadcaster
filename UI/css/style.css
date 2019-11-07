@@ -219,6 +219,17 @@ h3 {
 
 /* End Profile page */
 
+.createbox {
+     max-height: 550px;
+     max-width: 450px;
+     border-radius: 15px;
+     margin: 5% 35%;
+     box-sizing: border-box;
+     opacity: .7;
+}
+
+/* End of Create */
+
 @media screen and (max-width: 950px) {
      nav {
           width: 100%;
@@ -251,6 +262,15 @@ h3 {
           box-sizing: border-box;
           opacity: .7;
      }
+     .createbox {
+          max-height: 550px;
+          max-width: 450px;
+          border-radius: 15px;
+          margin: 75% 0 15% 0;
+          box-sizing: border-box;
+          opacity: .7;
+     }
+     .
      form {
           margin-left: 15%;
      }
