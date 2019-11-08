@@ -230,6 +230,54 @@ h3 {
 
 /* End of Create */
 
+.listcontents {
+     border-collapse: collapse;
+     padding: 5%;
+     font-size: 0.9em;
+     border-radius: 5px;
+     overflow: hidden;
+     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+     margin: 5%;
+     width: 90%;
+}
+.listcontents p {
+     text-align: center;
+     font-weight: bold;
+     font-size: 35px;
+}
+.tablelistcontents tbody tr td video {
+     padding: 3% ;
+     height: 80px;
+}
+.tablelistcontents tbody tr td img {
+     height: 80px;
+}
+.tablelistcontents thead tr {
+     background: var(--header-footer-background);
+     color: black;
+     text-align: left;
+     font-weight: bold;
+}
+.tablelistcontents {
+     margin: 5% auto;
+     padding: 5% auto;    
+}
+.tablelistcontents th,
+.tablelistcontents td {
+     padding: 5px 10px;
+}
+.tablelistcontents tbody tr {
+     border-bottom: 1px solid rgba(0, 0, 0, 0.794);
+}
+.tablelistcontents tbody tr:nth-of-type(even) {
+     background-color:rgba(160, 81, 45, 0.767); 
+}
+.tablelistcontents tbody tr:last-of-type {
+border-bottom: var(--header-footer-background);
+}
+
+/* End of Contents */
+
 @media screen and (max-width: 950px) {
      nav {
           width: 100%;
@@ -270,7 +318,7 @@ h3 {
           box-sizing: border-box;
           opacity: .7;
      }
-     .
+     
      form {
           margin-left: 15%;
      }
