@@ -294,7 +294,7 @@ border-bottom: var(--header-footer-background);
      font-size: 35px;
 }
 .tablestatusescontents {     
-     margin: 5% auto;
+     margin: 5% a2%;
      padding: 5% auto;    
 }
 .tablestatusescontents thead tr {
@@ -306,7 +306,8 @@ border-bottom: var(--header-footer-background);
 }
 .tablestatuesescontents th,
 .tablestatusescontents td {
-     padding: 5px 10px;
+     text-align: left;
+     padding: 2% 1%;
 }
 .tablestatusescontents tbody tr {
      border-bottom: 1px solid rgba(0, 0, 0, 0.794);
