@@ -278,6 +278,47 @@ border-bottom: var(--header-footer-background);
 
 /* End of Contents */
 
+.statusescontents {
+     border-collapse: collapse;
+     padding: 5%;
+     font-size: 0.9em;
+     border-radius: 5px;
+     overflow: hidden;
+     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+     margin: 7% 20%;
+     width: 60%;
+}
+.statusescontents p{     
+     text-align: center;
+     font-weight: bold;
+     font-size: 35px;
+}
+.tablestatusescontents {     
+     margin: 5% auto;
+     padding: 5% auto;    
+}
+.tablestatusescontents thead tr {
+     background: var(--header-footer-background);
+     color: black;
+     text-align: left;
+     font-weight: bold;
+     font-size: 19px;
+}
+.tablestatuesescontents th,
+.tablestatusescontents td {
+     padding: 5px 10px;
+}
+.tablestatusescontents tbody tr {
+     border-bottom: 1px solid rgba(0, 0, 0, 0.794);
+}
+.tablestatusescontents tbody tr:nth-of-type(1) {
+     font-weight: bold;
+     font-size: 18px;
+}
+
+
+/* End of Statuses */
+
 @media screen and (max-width: 950px) {
      nav {
           width: 100%;
