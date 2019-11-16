@@ -8,7 +8,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box;
-     background-image: linear-gradient(rgba(255, 217, 0, 0.315),rgba(255, 217, 0, 0.315) ) , url(../media/images/bkgold.jpg);
+     background-image: url(../media/images/bkgold.jpg);
      background-size: cover;
      background-attachment: fixed;
      background-position: center center;
