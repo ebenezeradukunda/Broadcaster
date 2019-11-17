@@ -104,6 +104,8 @@ nav div a img {
 
 footer {
      min-height: 10vh;
+     clear: both;
+     padding-top: 3%;
 }
 .nav-footer ul{
      list-style: none;
@@ -302,7 +304,7 @@ tbody tr td ul li a{
      font-size: 35px;
 }
 .tablestatusescontents {     
-     margin: 5% a2%;
+     margin: 5% 2%;
      padding: 5% auto;    
 }
 .tablestatusescontents thead tr {
