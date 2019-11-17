@@ -275,6 +275,14 @@ h3 {
 .tablelistcontents tbody tr:last-of-type {
 border-bottom: var(--header-footer-background);
 }
+tbody tr td ul li {
+     list-style-type: none;
+     text-align: left;
+}
+tbody tr td ul li a{
+     text-decoration: none;
+     color: blue;
+}
 
 /* End of Contents */
 
