@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/create-event.css">
         <title>Broadcaster</title>
 
     </head>
@@ -18,7 +18,7 @@
                <nav>
 
                     <div class="logo">
-                       <strong><a href="../index.html">daor<img src="../media/icons/bkgr.png" alt="Broadcast">ast</a></strong>
+                       <strong><a href="../index.html"><img src="../media/icons/bkgr.png" alt="Broadcast">Broadcaster</a></strong>
                     </div>
                         
                     <ul class="nav-links nav-active">
@@ -46,31 +46,29 @@
 
                </nav>
 
-               <div class="createbox">
 
-                    <form class="createinput">
-
-                              <h3>Create Intervention</h3>
-              
-                              <input type="text" placeholder="Title" required>
-                              <input type="text" value="Intervention" required>
-                              <input type="text" value="Draft" required>
-                              <input type="text" placeholder="Latitude Coordinates" required>
-                              <input type="text" placeholder="Longitude Coordinates" required>
-                              <input type="text" value="Comment..." required>
-                              Upload Image<input type="file" value="Image" required>
-                              Upload Video<input type="file" value="Video" required>
-
-                              <button>
-                                   <a href="../index.html" class="submit">Create</a>
-                              </button>
-              
-                          </form>
-
-                         
-               </div>
            
           </header>
+
+          <form class="signininput">
+
+               <h3>Intervention</h3>
+
+               <input type="text" placeholder="Title" required>
+               <input type="text" value="Intervention" required>
+               <input type="text" value="Draft" required>
+               <input type="text" placeholder="Latitude Coordinates" required>
+               <input type="text" placeholder="Longitude Coordinates" required>
+               <textarea rows="5" cols="55" required>Comment...</textarea>
+               <br>
+               Upload Image<input type="file" value="Image" required>
+               Upload Video<input type="file" value="Video" required>
+
+               <button class="home-button">
+                    <a href="../index.html" class="home-button">Create</a>
+               </button>
+     
+          </form>
           
           <footer class="footer">
 
