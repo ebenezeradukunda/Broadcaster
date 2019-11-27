@@ -16,7 +16,7 @@ body {
 }
 header {
 
-     min-height: 90vh;
+   min-height: 10%;
 }
 nav {
      display: flex;
@@ -82,10 +82,10 @@ nav div a img {
 }
 
 .home-button {
-     width: 100%;
-     justify-self: center;
+     width: 50%;
      box-sizing: border-box;
      padding: 5px;
+     margin-top: 35px;
      outline: none;
      border: 1px solid goldenrod;
      opacity: 0 .7;
@@ -93,16 +93,16 @@ nav div a img {
      font-weight: bold;
      font-size: 31px;
      cursor: pointer;
-     margin:  5% 0% 5% 45%;
+     margin:  5% 25%;
      color: whitesmoke;
-     background: green;
+     background: blue;
      box-shadow: 0 0 35px rgba(0, 0, 0, .5);
      text-decoration: none;
 }
 
 .home-button:hover {
      background: whitesmoke;
-     color: green;
+     color: blue;
 }
 
 .home-button a {
@@ -111,14 +111,13 @@ nav div a img {
      background: none;
  }
 .home-button a:hover {
-     color: green;
+     color: blue;
 }
 
 footer {
-     min-height: 10vh;
-     width: 100%;
+     min-height: 10%;
      clear: both;
-     padding-top: 25px;     
+     padding-top: 3%;     
      background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
 }
 .nav-footer {
@@ -134,27 +133,33 @@ footer {
      min-height: 10px;
      font-weight: bold;
      color: white;
+     background:none;
 }
-.nav-footer a {
+.nav-footer ul li {
+     background: none;
+}
+.nav-footer ul li a {
+     list-style: none;
      color: rgba(231, 172, 144, 0.89);
      cursor: pointer;
-     text-decoration: none;
+     background: none;
 }
 
+footer nav ul li a {
+     text-decoration: none;
+     background: none;
+}
 
 /* End of Home Page */
+body div {
+   height: 80%;
 
-.signininput {
-     max-height: 550px;
-     max-width: 30%;
-     border-radius: 5px;
-     margin: 5% 35%;
-     box-sizing: border-box;
-     opacity: .7;
- } 
+}
+
 form{
      background: sienna;
      width: 350px;
+     min-height: 450px;
      margin-top: 3%;
      box-sizing: border-box;
      outline: none;
@@ -178,20 +183,27 @@ input[type=password] {
 }
 
 h3 {
-     margin: 0;
+     margin: 7% 0;
      padding: 0 0 20px;
      text-align: center;
      font-size: 35px;
      background: transparent;
 }
-.signininput p {
-     margin: 0;
-     padding: 0;
-     font-weight: bold;
+
+
+.signininput {
+   max-height: 350px;
+   min-width: 35%;
+   border-radius: 5px;
+   margin: 5% 30%;
+   box-sizing: border-box;
+   opacity: .7;
+   box-flex: center;   
 }
+
 .signininput input {
-     width: 100%;
-     margin-bottom: 20px ;
+   text-align: center;
+   margin-bottom: 35px ;
 }
 .signininput input [type="text"],
 .signininput input [type="password"] {
@@ -202,127 +214,7 @@ h3 {
      height: 40px;
 }
 
-/* End of Login Page */
 
-.profile-image {
-     width: 25px;
-}
-.body-profile-wrapper p {
-     margin-top: 3%;
-     text-align: center;
-     font-size: 33px;
-}
-
-/* End Profile page */
-
-.createbox {
-     max-height: 550px;
-     max-width: 450px;
-     border-radius: 5px;
-     margin: 5% 35%;
-     box-sizing: border-box;
-     opacity: .7;
-}
-
-/* End of Create */
-
-.listcontents {
-     border-collapse: collapse;
-     padding: 3%;
-     font-size: 0.9em;
-     border-radius: 5px;
-     overflow-x:scroll;
-     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-     margin: 5%;
-     width: 90%;
-}
-.listcontents p {
-     text-align: center;
-     font-weight: bold;
-     font-size: 35px;
-}
-.tablelistcontents tbody tr td video {
-     padding: 3% ;
-     height: 80px;
-}
-.tablelistcontents tbody tr td img {
-     height: 80px;
-}
-.tablelistcontents thead tr {
-     background: var(--header-footer-background);
-     color: black;
-     text-align: left;
-     font-weight: bold;
-}
-.tablelistcontents {
-     margin: 5% auto;
-     padding: 5% auto;    
-}
-.tablelistcontents th,
-.tablelistcontents td {
-     padding: 5px 10px;
-}
-.tablelistcontents tbody tr {
-     border-bottom: 1px solid rgba(0, 0, 0, 0.794);
-}
-.tablelistcontents tbody tr:nth-of-type(even) {
-     background-color:rgba(160, 81, 45, 0.767); 
-}
-.tablelistcontents tbody tr:last-of-type {
-border-bottom: var(--header-footer-background);
-}
-tbody tr td ul li {
-     list-style-type: none;
-     text-align: left;
-}
-tbody tr td ul li a{
-     text-decoration: none;
-     color: blue;
-}
-
-/* End of Contents */
-
-.statusescontents {
-     border-collapse: collapse;
-     padding: 5%;
-     font-size: 0.9em;
-     border-radius: 5px;
-     overflow-x: scroll;
-     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-     margin: 5% 20%;
-     width: 60%;
-}
-.statusescontents p{     
-     text-align: center;
-     font-weight: bold;
-     font-size: 35px;
-}
-.tablestatusescontents {     
-     margin: 5% 2%;
-     padding: 5% auto;    
-}
-.tablestatusescontents thead tr {
-     background: var(--header-footer-background);
-     color: black;
-     text-align: left;
-     font-weight: bold;
-     font-size: 19px;
-}
-.tablestatuesescontents th,
-.tablestatusescontents td {
-     text-align: left;
-     padding: 2% 1%;
-}
-.tablestatusescontents tbody tr {
-     border-bottom: 1px solid rgba(0, 0, 0, 0.794);
-}
-.tablestatusescontents tbody tr:nth-of-type(1) {
-     font-weight: bold;
-     font-size: 18px;
-}
-
-
-/* End of Statuses */
 
 @media screen and (max-width: 950px) {
      nav {
@@ -364,21 +256,20 @@ tbody tr td ul li a{
           font-size: 23px;
      }
 
-     button{
-          width: 50%;
-          box-sizing: border-box;
-          padding: 5px;
-          outline: none;
-          border: 1px solid goldenrod;
-          opacity: 0 .7;
-          border-radius: 5px;
-          font-weight: bold;
-          font-size: 25px;
+     .home-button:hover {
+          background: whitesmoke;
+          color: blue;
           cursor: pointer;
-          margin:  5% 25%;
-          color: whitesmoke;
-          background: green;
-          box-shadow: 0 0 35px rgba(0, 0, 0, .5);
+     }
+
+     .home-button a {
+          text-decoration: none;
+          color:whitesmoke;
+          background: none;
+     }
+     .home-button a:hover {
+          color: blue;
+          cursor: pointer;
      }
      
      .loginbox {
@@ -473,10 +364,10 @@ tbody tr td ul li a{
           padding-bottom: 5px;
           min-height: 10px;
           font-weight: bold;
+          color: white;
           font-size: medium;
      }
 }
-
 @media screen and (max-width:650px) {
      .logo {
           text-align: left;
@@ -487,34 +378,32 @@ tbody tr td ul li a{
           font-weight: bold;
           font-size: 30px;
      }
-     .nav-links li a {
-          color: black;
-          text-decoration: none;
-          font-weight: bold;
-          font-size: 19px;
-          cursor: pointer;
-     }
-    
-     button{
-          width: 50%;
-          box-sizing: border-box;
-          padding: 5px;
-          margin-top: 35px;
-          outline: none;
-          border: 1px solid goldenrod;
-          opacity: 0 .7;
-          border-radius: 5px;
-          font-weight: bold;
-          font-size: 19px;
-          cursor: pointer;
-          margin:  5% 25%;
+     .home-button:hover {
+          background-color: blue;
           color: whitesmoke;
-          background: green;
-          box-shadow: 0 0 35px rgba(0, 0, 0, .5);
      }
-     .loginbox {
-          width: 80%;
-          margin: 15% 10%;
+
+     .home-button:hover {
+          background: whitesmoke;
+          color: blue;
+          cursor: pointer;
+     }
+
+     .home-button a {
+          text-decoration: none;
+          color:whitesmoke;
+          background: none;
+     }
+     .home-button a:hover {
+          background-color: white;
+          cursor: pointer;
+     }
+
+     
+     .signininput {
+          width: 100%;
+          height: 100%;
+          margin: 15% 0;
           box-sizing: border-box;
           opacity: .7;
      }
@@ -563,26 +452,20 @@ tbody tr td ul li a{
      .nav-links {
           position: absolute;
           right: 0px;
-          height: 15vh;
+          height: 25vh;
           top: 8vh;
           display: flex;
           flex-direction: column;
-          font-size: 10px;
-          align-items: left;
+          align-items: right;
           margin-top: 8px;
           transform: translateX(100%);
           transition: transform 0.5s ease-in;
-          
-     }
-     .nav-links li {
-          opacity: 0;
      }
      .nav-links li {
           opacity: 0;
      }
      .burger {
-          display: inline-block;
-          font-size: 19px;
+         display: inline-block;
      }
      .nav-footer ul{
           list-style: none;
